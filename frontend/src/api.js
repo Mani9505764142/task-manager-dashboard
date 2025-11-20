@@ -11,7 +11,6 @@ const api = axios.create({
 
 const user = import.meta.env.VITE_AUTH_USER;
 const pass = import.meta.env.VITE_AUTH_PASS;
-
 if (user && pass) {
   const token =
     typeof window !== "undefined"
